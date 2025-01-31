@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menstruation Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Menstruation Tracker</h1>
+    <form action="https://google.com" method="post">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="cycle-start">Cycle Start Date</label>
+        <input type="date" id="cycle-start" name="cycle-start" required>
+      </div>
+
+      <div class="form-group">
+        <label for="cycle-length">Cycle Length (in days)</label>
+        <input type="number" id="cycle-length" name="cycle-length" placeholder="Enter your cycle length" required>
+      </div>
+
+      <div class="form-group">
+        <label for="notes">Notes</label>
+        <textarea id="notes" name="notes" placeholder="Additional information"></textarea>
+      </div>
+
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+    <div class="footer">
+      <p>Made with ❤️ for menstrual health awareness</p>
+    </div>
+  </div>
+</body>
+</html>
